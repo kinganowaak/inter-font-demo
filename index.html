@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inter Font Language Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f7f7f8;
+      color: #161616;
+      line-height: 1.6;
+      padding: 32px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .intro {
+      color: #6b7280;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+
+    .sample {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6b7280;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .light { font-weight: 300; }
+    .regular { font-weight: 400; }
+    .medium { font-weight: 500; }
+    .bold { font-weight: 700; }
+
+    .small { font-size: 12px; }
+    .base { font-size: 16px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Inter font preview</h1>
+    <p class="intro">Vertical layout: each language stacked, with weights listed underneath.</p>
+
+    <div class="section">
+      <h2>English</h2>
+      <div class="sample small">
+        <span class="label">12px example</span>
+        <p>This is a small text sample set at 12 pixels for comparison.</p>
+      </div>
+      <div class="sample base">
+        <span class="label">16px example</span>
+        <p>This is a base text sample set at 16 pixels for comparison.</p>
+      </div>
+      <div class="sample light">
+        <span class="label">Light 300</span>
+        <p>Inter is a versatile sans-serif typeface designed for clarity on screens and in interfaces.</p>
+      </div>
+      <div class="sample regular">
+        <span class="label">Regular 400</span>
+        <p>This version presents the same text in a regular weight, ideal for comfortable reading.</p>
+      </div>
+      <div class="sample medium">
+        <span class="label">Medium 500</span>
+        <p>Medium weight adds a bit more emphasis while maintaining readability.</p>
+      </div>
+      <div class="sample bold">
+        <span class="label">Bold 700</span>
+        <p>Bold creates strong contrast and works well for important statements.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Deutsch</h2>
+      <div class="sample light">
+        <span class="label">Light 300</span>
+        <p>Inter ist eine vielseitige serifenlose Schrift für digitale Oberflächen.</p>
+      </div>
+      <div class="sample regular">
+        <span class="label">Regular 400</span>
+        <p>In der regulären Stärke ist der Text angenehm und gut lesbar.</p>
+      </div>
+      <div class="sample medium">
+        <span class="label">Medium 500</span>
+        <p>Die mittlere Stärke sorgt für etwas mehr visuelle Präsenz.</p>
+      </div>
+      <div class="sample bold">
+        <span class="label">Bold 700</span>
+        <p>Fett gesetzter Text zieht sofort Aufmerksamkeit auf sich.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Español</h2>
+      <div class="sample light">
+        <span class="label">Light 300</span>
+        <p>Inter es una tipografía versátil pensada para pantallas y productos digitales.</p>
+      </div>
+      <div class="sample regular">
+        <span class="label">Regular 400</span>
+        <p>En regular, el texto mantiene un equilibrio natural y legible.</p>
+      </div>
+      <div class="sample medium">
+        <span class="label">Medium 500</span>
+        <p>El peso medio aporta más fuerza sin perder claridad.</p>
+      </div>
+      <div class="sample bold">
+        <span class="label">Bold 700</span>
+        <p>La negrita destaca y capta la atención rápidamente.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Polski</h2>
+      <div class="sample light">
+        <span class="label">Light 300</span>
+        <p>Inter to nowoczesny krój pisma zaprojektowany z myślą o ekranach.</p>
+      </div>
+      <div class="sample regular">
+        <span class="label">Regular 400</span>
+        <p>W odmianie regular tekst jest najbardziej neutralny i czytelny.</p>
+      </div>
+      <div class="sample medium">
+        <span class="label">Medium 500</span>
+        <p>Medium daje lekko mocniejszy akcent wizualny.</p>
+      </div>
+      <div class="sample bold">
+        <span class="label">Bold 700</span>
+        <p>Bold najlepiej sprawdza się w ważnych komunikatach.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
